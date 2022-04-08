@@ -1,0 +1,65 @@
+﻿RECAP DARI UP AS WEB PROGRAMMING
+
+VCS ‘VERSION CONTROL SYSTEM’
+	Sistem yang menyimpan & mengelola rekaman perubahan dari Source Code.
+GIT
+	Salah satu software yang bisa melakukan VCS
+GitHub
+	Website / Layanan untuk mengelola project GIT
+
+Istilah Git
+
+REPOSITORY/REPO 	:	FOLDER PROJECT KITA	
+COMMIT	:	REKAMAN / SNAPSHOTP DARI REPO KITA
+HASH	:	PENANDA UNIT PADA SEBUAH COMMIT
+CHECKOUT	:	BERPINDAH DARI SEBUAH COMMIT
+BRANCH	:	CABANG BEBAS DARI SEBUAH COMMIT
+MERGE	:	MENGGABUNGKAN BRANCH
+REMOTE	:	SUMBER YANG MEMILIKI REPO
+CLONE	:	MENGAMBIL REPO DARI REMOTE
+PUSH	:	MENGIRIMKAN COMMIT KE REPO
+PULL	: 	MENGAMBIL COMMIT DARI REPO
+
+GITHUB
+bila ingin melakukan perubahan pada repo jangan lupa mengisi COMMIT. Untuk melihat history commit yang dilakukan klik di history. Bila ingin detail klik di repo dan klik Insight. Dan disetiap repo ada keterangan berapa kali commit
+
+BRANCH
+
+
+						MERGE
+
+	
+-	Membuat Git Branch
+-	Membuat snapshop tanpa menggangu jalur utama (Master Branch)
+-	Fitur Experimental
+-	2 orang mengerjakan repo yang sama
+
+ada 2 type merge yakni 
+
+1. fast merge             	:	tidak ada conflict lgsg merge
+2. three way merge	:	ada conflict tp bisa diresolve oleh master untuk merge ditandai
+			ada zigzag
+merge conflict	:	baris yang sama dirubah oleh 2 branch yang berbeda
+
+
+pada saat melakukan merge harus dilakukan merge prosesnya adalah : ketika branch melakukan pull requests repo lalu meminta master/main except request/process merge tjd.  Apabila sudah dilakukan merge lalu delete pull request
+
+
+
+Fork
+-	Proses membuat copy/duplikat dari repository orang lain (beserta historynya)
+-	jembatan antara repo duplikat dengan repo original
+- 	memodifikasi repo originalnya
+untuk melakukan fork klik pada github orang lain lalu pilih respository klik fork.
+Lalu open github kita dan dilihat hasil fork
+buka respository fork lalu lakukan pull request dengan cara create new file pada branch main respository fork dan sent request.
+Dari sisi penerima
+accept merge
+
+Bekerja dengan Git
+
+
+
+
+ 
+
